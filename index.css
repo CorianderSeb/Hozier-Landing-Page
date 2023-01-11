@@ -1,8 +1,9 @@
 body {
-    font-family: Playfair Display, sans-serif;
+    font-family: 'Playfair Display', sans-serif;
+    background-color: black;
 }
 .container {
-    max-width:900px;
+    max-width:1100px;
     margin: 0 auto;
 }
 header {
@@ -12,6 +13,7 @@ header {
     color: white;
     text-align: center;
     padding: 200px 100px;
+    margin:0;
 }
 header h1 {
 font-size: 128px;
@@ -26,9 +28,10 @@ header h2 {
 text-align: center;
 padding: 0px;
 margin-top: 10px;
+font-size: 40px;
 }
 header h3 {
-font-family: 'Roboto';
+font-family: 'Roboto', sans-serif;
 font-style: normal;
 font-weight: 900;
 font-size: 24px;
@@ -40,4 +43,39 @@ padding-top: 100 px;
 padding-bottom: 0;
 }
 
+header a {
+font-family: 'Plus Jakarta Sans', sans-serif;
+font-style: normal;
+display: inline-block;
+font-weight: 700;
+font-size: 14px;
+margin-top: 32px;
+line-height: 18px;
+text-align: center;
+letter-spacing: 3px;
+text-transform: uppercase;
+background-color: white;
+text-decoration: none;
+color:black;
+padding: 16px 32px;
+}
 
+footer {
+    color: white;
+}
+
+@media (max-width: 800px) {
+    header{
+        padding: 60px 0;
+        background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url("./images/herobgsmall.jpg");
+    }
+    header h1{
+        font-size: 64px;
+    }
+    header h2 {
+        font-size: 20px;
+    }
+    header h3 {
+        font-size: 12px;
+    }
+}
