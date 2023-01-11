@@ -59,14 +59,57 @@ text-decoration: none;
 color:black;
 padding: 16px 32px;
 }
+main {
+    color: white;
+}
+
+main h3 {
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 13px;
+line-height: 20px;
+letter-spacing: 5px;
+text-transform: uppercase; 
+background-color: #242F36;
+margin-right: 357px;
+padding-left: 10px;
+margin-bottom: 0;
+padding-bottom: 0;
+}
+main p {
+    padding: 10 0 5 0;
+    margin-right: 10px;
+}
+
+main h2 {
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 64px;
+    margin: 5px;
+    ;
+}
+
+
 section {
-    max-width: 1000px;
+    max-width: 1100px;
     margin: 0 auto;
+    padding: 150px 60px;
+}
+.grid-two {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 30px;
+    background-color: darkgray;
+    padding:100px 0;
+    max-width: 1100px;
 }
 .grid{
     display:grid;
     grid-template-columns: 1fr 2fr 1fr;
-    grid-gap: 15px;
+    grid-gap: 60px;
 }
 footer {
     font-family: 'poppins', sans-serif;
@@ -74,7 +117,6 @@ footer {
     background-repeat: no-repeat;
     background-size: cover;
      color: white;
-     padding:100px 0;
 
 }
 footer h3 {
