@@ -79,7 +79,13 @@ padding-bottom: 0;
 }
 main p {
     padding: 10 0 5 0;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 19px;
     margin-right: 10px;
+    color: rgba(0,0,0,0.7);
 }
 
 main h2 {
@@ -106,7 +112,12 @@ section {
     padding:100px 0;
     max-width: 1100px;
 }
-.grid{
+.img-responsive {
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.grid-footer{
     display:grid;
     grid-template-columns: 1fr 2fr 1fr;
     grid-gap: 60px;
@@ -159,5 +170,19 @@ footer a {
     }
     header h3 {
         font-size: 12px;
+    }
+    section {
+        padding: 50px;
+    }
+    .grid {
+        grid-template-columns: 1fr;
+        grid-gap: 20px;
+    }
+    .grid-two h2 {
+        font-size: 20px;
+    }
+    .grid-two img {
+      max-width: 300px;  .grid p {
+        padding: 15 0 15 0;
     }
 }
