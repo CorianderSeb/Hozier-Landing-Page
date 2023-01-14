@@ -113,8 +113,10 @@ section {
     max-width: 100%;
     margin: 0 auto;
 }
-.embed {
-    width:100%;
+.spotify {
+    width:300px;
+    height: 300px;
+    grid-gap: 5px;
 }
 .grid-footer{
     display:grid;
@@ -184,6 +186,26 @@ margin-bottom: 0;
 .text-center {
     text-align: center;
     margin: 0 auto;
+}
+.section-3 {
+    background-color: darkgray;
+}
+.section-3 h3 {
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 13px;
+line-height: 20px;
+letter-spacing: 5px;
+text-transform: uppercase; 
+background-color: #242F36;
+margin: 0;
+padding-left: 10px;
+padding-bottom: 0;
+color: white;
+}
+.spotify {
+    aspect-ratio: 1/1;
 }
 footer {
     font-family: 'poppins', sans-serif;
