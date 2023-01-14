@@ -113,7 +113,9 @@ section {
     max-width: 100%;
     margin: 0 auto;
 }
-
+.embed {
+    width:100%;
+}
 .grid-footer{
     display:grid;
     grid-template-columns: 1fr 2fr 1fr;
@@ -132,8 +134,9 @@ section .grid-3-columns {
 .card .card-body{
     background-color: white;
     color:black;
-    margin: 30px 0;
     padding: 10px;
+    height: 560px;
+    border-radius: 20px;
 }
 main h4{
 font-family: 'Roboto', sans-serif;
@@ -159,7 +162,6 @@ font-weight: 400;
 font-size: 14px;
 line-height: 19px;
 color: #272044;
-max-width: 277px;
 }
 main .btn {
 display: block;
@@ -232,6 +234,10 @@ footer a {
     header h3 {
         font-size: 12px;
     }
+    main {
+        display: block;
+        margin: 0 auto;
+    }
     section {
         padding: 50px;
     }
@@ -247,5 +253,17 @@ footer a {
     } 
       .grid p {
         padding: 15 0 15 0;
+    }
+    main {
+        max-width:300px;
+    }
+    main h2 {
+        font-size: 20px;
+    }
+    main h3 {
+        font-size: 12px;
+    }
+    .grid-3-columns {
+        grid-template-columns: 1fr;
     }
 }
