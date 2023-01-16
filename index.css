@@ -281,6 +281,9 @@ footer a {
         margin: 0;
     }
     section .grid {
+    padding: 0;
+    max-width: 100%;
+    justify-items: center;
     grid-template-columns: 1fr;
     grid-gap: 0px;
   }
@@ -305,6 +308,7 @@ footer a {
     }
     main {
         max-width:300px;
+        margin: 0 auto;
     }
     main h2 {
         font-size: 20px;
