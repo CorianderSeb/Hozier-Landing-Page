@@ -287,6 +287,7 @@ footer a {
         justify-items: center;
         grid-template-columns: 1fr;
         grid-gap: 0px;
+        margin:0;
   }
     .grid-two h2 {
         font-size: 20px;
