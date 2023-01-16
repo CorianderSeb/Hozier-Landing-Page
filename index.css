@@ -131,6 +131,7 @@ section {
     background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url("./images/hozier-singing.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    width: 100%;
 }
 section .grid-3-columns {
     display: grid;
@@ -264,10 +265,6 @@ footer a {
     header h3 {
         font-size: 12px;
     }
-    .grid-two{
-        grid-template-columns: 1fr;
-        padding: 25px;
-    }
     section {
         padding: 10px;
         margin: 10px;
@@ -283,9 +280,16 @@ footer a {
     .grid-two h2 {
         font-size: 20px;
     }
-    .grid-two img {
-      max-width: 300px;  
-    } 
+    .grid-two {
+        grid-template-columns: 1fr;
+        padding: 25px;
+        width: 100%;
+    }
+    .grid-3-columns {
+    grid-template-columns: 1fr;
+    padding: 25px;
+    width: 100%;
+  }
       .grid p {
         padding: 15 0 15 0;
     }
