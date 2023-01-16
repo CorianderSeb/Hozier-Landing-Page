@@ -282,8 +282,11 @@ footer a {
         margin: 0;
     }
     section .grid {
-    grid-template-columns: 1fr;
-    grid-gap: 0px;
+        padding: 0;
+        max-width: 100%;
+        justify-items: center;
+        grid-template-columns: 1fr;
+        grid-gap: 0px;
   }
     .grid-two h2 {
         font-size: 20px;
