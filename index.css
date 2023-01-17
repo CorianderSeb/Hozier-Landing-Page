@@ -127,7 +127,7 @@ section {
     padding-left: 70px;
 }
 .grid-footer{
-    display:grid;
+    display: grid;
     grid-template-columns: 1fr 2fr 1fr;
     grid-gap: 60px;
 }
@@ -278,12 +278,10 @@ footer a {
         margin: 10px;
     }
     main {
-        width: 300px;
+        width: 100%;
         margin: 0;
     }
     section .grid {
-        padding: 0;
-        max-width: 100%;
         justify-items: center;
         grid-template-columns: 1fr;
         grid-gap: 0px;
@@ -294,21 +292,15 @@ footer a {
     .grid-two {
         grid-template-columns: 1fr;
         padding: 0px;
-        width: 100%;
-    }
-    .secondary {
-        width: 100%;
     }
     .grid-3-columns {
     grid-template-columns: 1fr;
-    padding: 25px;
-    width: 100%;
+    padding: 0;
+   margin: 0 auto;
   }
       .grid p {
-        padding: 15 0 15 0;
-    }
-    main {
-        max-width:300px;
+        padding: 15px 0;
+        margin: 0 10px;
     }
     main h2 {
         font-size: 20px;
@@ -318,5 +310,8 @@ footer a {
     }
     footer .grid{
         grid-template-columns: 1fr;
+    }
+    .card .card-body{
+        height:auto;
     }
 }
